@@ -285,16 +285,9 @@ margin-bottom: 8px;
   
   .team-item-text{
     text-align: center;
+    margin-bottom: 8px;
   }
-  .svg_logo_two{
-    width: 232px;
-height: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-left: 16px;
-margin-top: 8px;
- }
+  
 
 .social_media_list{
 display: flex;
@@ -322,6 +315,7 @@ gap: 24px;
 }
 .icon-v2{
   fill: #f4f4fd;
+
 }
   
   .portfolio-list {
