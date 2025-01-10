@@ -138,24 +138,18 @@ body {
   
   .box {
     padding: 188px 0;
-    background-image: url(../images/people-office.png);
     background-size:cover;
     background-color: #2e2f42;
     position: relative;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 
 
   }
-  .box::before {
-    content: '';
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-   height: 100%;
-    background-color: rgba(46, 47, 66, 0.7); /* Karartma rengi ve opaklık */
-    z-index: 1; /* Karartmanın üstte görünmesi */
-  }
+  
   
   .box-container {
     display: flex;
@@ -163,11 +157,7 @@ body {
     gap: 50px;
     align-items: center;
     position: relative;
-    
-  z-index: 2; /* İçerik karartmanın üstünde görünür */
-  text-align: center;
-  color: white; /* Yazı rengini kontrast için beyaz yap */
-  
+
   }
   
   .box-title {
@@ -194,6 +184,7 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .box-btn:hover,
