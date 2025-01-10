@@ -230,11 +230,9 @@ justify-content: center;
 align-items: center;
 margin-bottom: 8px;
   }
-  .icon-v1{
-    width:64px; 
-    height:64px;
+  
     
-  }
+
   .benefits-item-title {
     font-weight: 500;
     font-size: 20px;
